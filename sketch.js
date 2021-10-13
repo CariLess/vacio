@@ -69,5 +69,6 @@ function draw() {
   cerdito.display();
   pajaro.display();
   plataforma.display();
+  //HOLA
 
 }
