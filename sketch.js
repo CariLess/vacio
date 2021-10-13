@@ -11,6 +11,7 @@ var motor, mundo;
 //3 creamos variables para los objetos en nuestro mundo
 var caja1, caja2, caja3, caja4, caja5;
 var ground;
+var plataforma;
 var tronco, tronco2, tronco3, tronco4;
 var pajaro;
 var cerdo;
@@ -35,6 +36,7 @@ function setup() {
   caja5 = new Box(810,205,70,70);
   
   ground = new Ground(600,height,1200,20);
+  plataforma = new Ground(150,305,300,170);
 
   tronco = new Log(810,305,300,PI/2);
   tronco2 = new Log(810,225,300,PI/2);
@@ -66,6 +68,6 @@ function draw() {
   cerdo.display();
   cerdito.display();
   pajaro.display();
-
+  plataforma.display();
 
 }
