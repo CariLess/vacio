@@ -68,6 +68,6 @@ function draw() {
   cerdo.display();
   cerdito.display();
   pajaro.display();
-  plataforma.display();
+  //plataforma.display();
 
 }
